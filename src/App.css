@@ -146,6 +146,31 @@ nav ul li {
   z-index:2;
 
 }
+@media(max-width:800px){
+  #aboutContainer{
+    font-size: 1rem !important;
+    display:grid;
+    width:100%;
+    height:fit-content
+  }
+}
+@media(max-width:1700px){
+  #aboutContainer{
+    font-size: 1.2rem !important;
+    display:grid;
+    width:100%;
+    height:fit-content
+  }
+}
+@media(max-width:1700px){
+  #rightText{
+    font-size: 1.2rem !important;
+    display:grid;
+    width:100%;
+    height:fit-content
+  }
+}
+
 /*******HEADER MAIN OFFER BUTTON**********************/
 .btn-main-offer{
   border:1px solid var(--primary-orange);
@@ -222,6 +247,14 @@ td{
   height:300px;
   float:left;
   margin:20px;
+}
+@media(max-width:1700px){
+  .portfolioPhoto{
+    font-size: 1.2rem !important;
+    text-align: center;
+    position: relative;
+    
+  }
 }
 .typed-text2{
   font-size:2rem;
