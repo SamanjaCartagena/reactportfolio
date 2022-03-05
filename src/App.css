@@ -175,8 +175,7 @@ nav ul li {
 }
 
 #videosContainer{
-  position: relative;
- height:100vh;
+ height:auto;
  width:100%;
  z-index:1;
  background-color: var(--primary-purple);
@@ -189,12 +188,17 @@ table {
   border-collapse: collapse;
  display:table-cell;
  vertical-align: middle;
+ width:400px;
+ height:auto;
   
 }
 td{
+  position: relative;
   background-color: var(--primary-white);
   box-shadow: 0.625rem 0.3125rem 0.3125rem 0.3125rem inset var(--primary-purple);
   padding:2rem;
+  width:50%;
+  height:auto;
   border-spacing: 0.3125rem 1rem;
   
 }

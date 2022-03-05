@@ -23,14 +23,14 @@ function Services() {
                 <p>Mobile App Development with React-native, Flutter</p>
                 <p>Full stack e-commerce development ReactJS, Graph QL and any cloud service of your choice</p>
                 <p>Wordpress e-commerce development with PHP, SQL, JavaScript, Stripe Integration</p>
-
+                
                 <p>List your products on Amazon, ebay etc and give you software for inventory management</p>
                  <p>Make your website more intelligent using collected data and machine learning engineering</p>
                 <p>Provide unconventional but legal ways of marketing your services and products</p>
                 <p>Bring your tweets, your facebook posts, articles, blogs, photos more attention</p>
                 <p>Make you discord chat bots, twitter bots, python chat bots, webscrapers, webcrawlers</p>
                 <p>Excel spreadsheets and Google spreadsheets services, automate excel data, Excel VBA programming </p>
-                <h3>Inspired??? Motivated to start your dream project? Buy me some seltzer water!!</h3>
+                <h3>Inspired??? Motivated to start your dream project? Buy me a coconut !</h3>
 
                 
 
