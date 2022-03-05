@@ -1,6 +1,8 @@
 import React from 'react';
 
 import myLogo1 from '../images/logosam1.png'
+import AboutMe from '../components/AboutMe';
+import Videos from './Videos';
 
 //react fontawesome imports
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -27,16 +29,16 @@ const Navbar = () => {
 
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">about me</a>
+          <a class="nav-link" href='#aboutSection'>About me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">services</a>
+          <a class="nav-link" href="#servicesContainer">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="#videosContainer">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contacts</a>

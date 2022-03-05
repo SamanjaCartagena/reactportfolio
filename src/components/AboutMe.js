@@ -4,7 +4,7 @@ import photo from '../images/portfolioPhoto.jpg';
 
 function AboutMe() {
   return (
-    <div>
+    <div id="aboutSection">
     <center>
     <Typed 
                 className='typed-text1'

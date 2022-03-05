@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 
 function Services() {
   return (
-    <div className='servicesContainer'>
+    <div id='servicesContainer'>
     <center>
       <Typed 
                 className='typed-text2'

@@ -217,6 +217,7 @@ table {
  height:auto;
   
 }
+
 td{
   position: relative;
   background-color: var(--primary-white);
@@ -253,7 +254,7 @@ td{
     font-size: 1.2rem !important;
     text-align: center;
     position: relative;
-    
+
   }
 }
 .typed-text2{
@@ -262,7 +263,7 @@ td{
   color:var(--primary-orange);
   z-index:2;
 }
-.servicesContainer{
+#servicesContainer{
   background-color: var(--primary-purple);
   
 }
