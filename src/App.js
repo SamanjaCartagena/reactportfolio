@@ -3,6 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-tsparticles";
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Videos from './components/Videos';
+import AboutMe from './components/AboutMe';
+import Services from './components/Services';
 function App() {
   const particlesInit = (main) => {
     console.log(main);
@@ -14,9 +17,10 @@ function App() {
     console.log(container);
   };
   return (
-  <>
+  <div id="container">
 
 <Particles
+      className='particlesCanvas'
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
@@ -31,7 +35,7 @@ function App() {
           events: {
             onClick: {
               enable: true,
-              mode: "push",
+              
             },
             onHover: {
               enable: true,
@@ -75,6 +79,7 @@ function App() {
             outMode: "bounce",
             random: false,
             speed: 2,
+            bounce:false,
             straight: false,
           },
           number: {
@@ -100,8 +105,11 @@ function App() {
     />
    <Navbar/>
    <Header />
+   <AboutMe/>
+   <Services />
+  <Videos style={{zIndex:'3'}} />
 
-   </>
+   </div>
   
   );
 }
