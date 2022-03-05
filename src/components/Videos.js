@@ -2,17 +2,18 @@ import React from 'react'
 import Typed from 'react-typed';
 import mark from '../images/markw.jpg';
 import evergreen from '../images/evergreenPhoto.PNG';
-import bride from '../images/bridal.jpg'
+import bride from '../images/bridal.jpg';
+import mary from '../images/mary.jpg';
 
 function Videos() {
   return (
       <center>
      
     <div id='videosContainer' >
-    <h3 style={{color:'white'}}>Due to privacy concerns, I cannot show you all the codes of all of my projects but I will show as much as possible</h3>
+    <h3 style={{color:'white'}}>Due to privacy concerns, I cannot display all of my projects here.</h3>
       <Typed 
                 className='typed-text2'
-                strings={[ "Interesting Projects"]}
+                strings={[ "Work Samples"]}
                 typeSpeed={200}
                 backSpeed={200}
                 loop
@@ -68,9 +69,11 @@ function Videos() {
                    </center>
                     </td>
                     <td>
-                    <center><h4>Chat App with MongoDB</h4>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2bFbO-J93JQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </center>
+                    <center>
+                    <h4>Memorandum</h4>
+                    <a href="https://evergreen.segment.com/">
+                        <img src={evergreen} width="560px" height="315px"/></a>
+                        </center>
                     </td>
                 
                     
@@ -93,9 +96,25 @@ function Videos() {
                 <tr>
                     <td>
                     <center>
-                    <h4>Evergeen Segment Library</h4>
+                    <h4>Memorandum</h4>
                     <a href="https://evergreen.segment.com/">
-                        <img src={evergreen} width="560px" height="315px"/></a>
+                        <img src={mary} width="560px" height="315px"/></a>
+                        </center>
+                    </td>
+                    <td>
+                    <center>
+                    <h4>Beena Beauty Salon</h4>
+                    <a href="http://www.beenabeautysalon.com/">
+                        <img src={bride} width="560px" height="315px"/></a>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                <td>
+                    <center>
+                    <h4>Sugar Daddy Meet</h4>
+                    <a href="http://www.beenabeautysalon.com/">
+                        <img src={bride} width="560px" height="315px"/></a>
                         </center>
                     </td>
                     <td>

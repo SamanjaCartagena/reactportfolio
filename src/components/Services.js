@@ -30,7 +30,7 @@ function Services() {
                 <p>Bring your tweets, your facebook posts, articles, blogs, photos more attention</p>
                 <p>Make you discord chat bots, twitter bots, python chat bots, webscrapers, webcrawlers</p>
                 <p>Excel spreadsheets and Google spreadsheets services, automate excel data, Excel VBA programming </p>
-                <h3>Inspired??? Motivated to start your dream project? Buy me a coconut !</h3>
+                <h3></h3>
 
                 
 
