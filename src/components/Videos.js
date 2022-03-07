@@ -21,7 +21,7 @@ function Videos() {
                 loop
                 
             />
-            <table>
+            <table className='table1'>
             
                 <tr>
                     <td>
@@ -142,8 +142,7 @@ function Videos() {
                 
             </table>
             <br></br>
-            <p style={{color:'white'}}>I have many more exciting projects! But I hope you understood what I can bring to the table.</p>
-            <p style={{color:'white'}}>Copyrights &copy;  SamanjaCartagena. 2022</p>
+           
             <br></br>
     </div>
     </center>

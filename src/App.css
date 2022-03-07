@@ -207,7 +207,7 @@ nav ul li {
  
 
 }
-table {
+.table1 {
   position:relative;
   z-index: 20;
   border-collapse: collapse;
@@ -218,7 +218,7 @@ table {
   
 }
 
-td{
+.table1 td{
   position: relative;
   background-color: var(--primary-white);
   box-shadow: 0.625rem 0.3125rem 0.3125rem 0.3125rem inset var(--primary-purple);
@@ -229,7 +229,7 @@ td{
   
 }
 @media(max-width:768px){
-   table{
+   .table1{
     vertical-align: middle;
     display:table-cell ;
 
@@ -275,4 +275,16 @@ td{
 .expertStuff p{
   text-align: center;
   margin:10px;
+}
+/**************************Contact Container*****************************/
+#contactContainer{
+  position: relative;
+  text-align: center;
+  width:50%;
+  height:300px;
+  margin:5px;
+  background-color: white;
+  box-shadow: 0.625rem 0.3125rem 0.3125rem 0.3125rem var(--primary-purple);
+  z-index:2;
+
 }

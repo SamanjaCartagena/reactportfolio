@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Videos from './components/Videos';
 import AboutMe from './components/AboutMe';
 import Services from './components/Services';
+import Contact from './components/Contact';
 function App() {
   const particlesInit = (main) => {
     console.log(main);
@@ -108,6 +109,7 @@ function App() {
    <AboutMe/>
    <Services />
   <Videos style={{zIndex:'3'}} />
+  <Contact/>
 
    </div>
   
